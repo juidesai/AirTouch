@@ -9,15 +9,19 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="@drawable/background"
     tools:context="juidesai.edu.csulb.com.airtouch.MainActivity">
 
 
     <TextView
-        android:text="Settings"
+        android:text="Settings\n----------------"
+        android:textColor="#000"
+        android:divider="?android:dividerVertical"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -30,6 +34,10 @@
 
             <TextView
                 android:text="Hand Wave"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:divider="@android:color/black"
+                android:dividerHeight="1.0sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3" />
@@ -37,10 +45,12 @@
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/handwave" />
+                android:id="@+id/handwave"/>
 
             <TextView
-                android:text="Phone Flip"
+                android:text="-------------------\nPhone Flip"
+                android:textSize="18dp"
+                android:textColor="#000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4" />
@@ -51,7 +61,9 @@
                 android:id="@+id/flip" />
 
             <TextView
-                android:text="Wrist Twist"
+                android:text="-------------------\nWrist Twist"
+                android:textSize="18dp"
+                android:textColor="#000"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView5" />
@@ -62,19 +74,24 @@
                 android:id="@+id/wrist" />
 
             <TextView
-                android:text="Flash light on call"
+                android:text="-------------------\nFlash light on call\n"
+                android:textColor="#000"
+                android:textSize="18dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView6" />
 
             <Switch
-                android:text="Switch"
+                android:text="-------------------\nSwitch\n"
+                android:textSize="18dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/callflash" />
 
             <TextView
-                android:text="In Dark"
+                android:text="-------------------\nIn Dark"
+                android:textColor="#000"
+                android:textSize="18dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView7" />
@@ -85,8 +102,10 @@
                 android:id="@+id/dark" />
 
             <TextView
-                android:text="3 Fingers Tap"
+                android:text="-------------------\n3 Fingers Tap"
+                android:textColor="#000"
                 android:layout_width="match_parent"
+                android:textSize="18dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView8" />
 
